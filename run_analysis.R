@@ -40,4 +40,4 @@ grouped <- group_by(data, subject, activity)
 
 tidy <- summarise_each(grouped,  funs(mean) )
 
-write.table(tidy, file ="tidy.txt")
+write.table(tidy, file ="tidy.txt",row.name=FALSE)

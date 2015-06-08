@@ -1,7 +1,7 @@
 # Getting-and-Cleaning-Data-Project
 This script creates a tidy data set from the source files utilizing the dplyr package
 
-IT follows these steps
+It follows these steps
 
 Read in Data
 merge training and  test data
